@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Projeto_Luiz.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="shortcut icon" href="img/LogoLuiz.ico.ico" type="image/x-icon">
+  <title>Portfólio de Luiz Francisco</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50" tabindex="0">
+
+  <header>
+    <nav id="navbar" class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/LogoLuizBranco.png" alt="" width="50px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Portifólio</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#QuemSouEu">Quem Sou Eu</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">Contatos</a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#Contato">Contato</a></li>
+                  <li><a class="dropdown-item" href="Projeto_LuizCurriculo.html">Currículo</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <article class="home">
+    <div id="TextoHome" class="content">
+      <h1>Seja bem-vindo ao meu portfólio</h1>
+      <p>Aqui você pode conhecer um pouco mais sobre mim</p>
+    </div>
+  </article>
+
+  <article id="QuemSouEu" class="sobre">
+    <section>
+      <div class="Luiz">
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <img src="img/Luiz ghibli.jpg" alt="" width="300px">
+            </div>
+            <div class="col">
+
+              <h1>Olá, meu nome é Luiz Francisco</h1>
+              <h6 class="">Estudante de Engenharia de Software na Unicesumar. Sou apaixonado por tecnologia e
+                desenvolvimento de
+                software,
+                sempre buscando soluções inovadoras para desafios do dia a dia. Tenho experiência com projetos práticos,
+                incluindo o desenvolvimento de aplicativos e soluções tecnológicas voltadas para o mercado. Além da
+                programação,
+                gosto de andar de moto, assistir a séries e sou fã de jogos de FPS e simuladores de corrida.
+                Meu objetivo é adquirir experiência profissional e contribuir com ideias que promovam avanços na área de
+                tecnologia</h6>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    
+
+ <section class="Sites py-5" id="sitesFavoritos">
+    <h3 class="text-center mb-4">Ferramentas e Carreira</h3>
+    <div class="container">
+        <div class="row justify-content-center g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/download.jpg" class="card-img-top p-3" alt="IntelliJ" style="height: 120px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">IntelliJ IDEA</h5>
+                        <p class="card-text">Minha IDE principal para desenvolvimento Java e backend.</p>
+                        <a href="https://www.jetbrains.com/idea/" target="_blank" class="btn btn-dark mt-auto">Acessar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/vscode.jpg" class="card-img-top p-3" alt="VS Code" style="height: 120px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">VS Code</h5>
+                        <p class="card-text">Editor favorito para frontend, HTML, CSS e Bootstrap.</p>
+                        <a href="https://code.visualstudio.com/" target="_blank" class="btn btn-primary mt-auto">Acessar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-primary shadow-sm">
+                    <img src="img/curriculo.png" class="card-img-top p-3" alt="Currículo" style="height: 120px; object-fit: contain;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Meu Currículo</h5>
+                        <p class="card-text">Confira minha trajetória técnica e acadêmica completa.</p>
+                        <a href="Projeto_LuizCurriculo.html" target="_blank" class="btn btn-outline-primary mt-auto">Acessar CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5" id="meusCertificados">
+    <h3 class="text-center mb-4">Certificações e Especializações</h3>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-box-seam" style="font-size: 2.5rem; color: #f89820;"></i>
+                        <h6 class="card-title mt-3">(Certificado)Java POO</h6>
+                        <p class="card-text small text-muted">Curso em Vídeo - 40h<br>Fundamentos e base sólida em programação orientada objetos.</p>
+                        <a href="https://github.com/Luizfp0908/Curso-em-video/blob/main/Certificado/Luiz-Francisco-Pucci-Java-POO-40-Horas-Certificado-Curso-em-Video.pdf" target="_blank" class="btn btn-sm btn-outline-primary mt-2">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-logic" style="font-size: 2.5rem; color: #6c757d;"></i>
+                        <h6 class="card-title mt-3">(Certificado)Lógica de Algoritmos</h6>
+                        <p class="card-text small text-muted">Curso em Vídeo - 40h<br>Fundamentos e base sólida em programação.</p>
+                        <a href="img/Certificado/Luiz-Francisco-Pucci-Algoritmo-40-Horas-Certificado-Curso-em-Video.pdf" target="_blank" class="btn btn-sm btn-outline-primary mt-2">Ver Certificado</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-cloud-arrow-down" style="font-size: 2.5rem; color: #0d6efd;"></i>
+                        <h6 class="card-title mt-3">(Certificado)Consumo de APIs</h6>
+                        <p class="card-text small text-muted">Alura - Fev/2026<br>Integração com APIs REST, GSON e tratamento de erros.</p>
+                        <a href="https://cursos.alura.com.br/certificate/33af73c6-fe49-4dc7-8810-58a173e6bf47?lang=pt_BR" target="_blank" class="btn btn-sm btn-outline-primary mt-2">Ver Certificado</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-database" style="font-size: 2.5rem; color: #3498db;"></i>
+                        <h6 class="card-title mt-3">(Certificado)SQLite</h6>
+                        <p class="card-text small text-muted">Persistência de Dados<br>Criação de bancos locais e consultas otimizadas.</p>
+                        <a href="https://cursos.alura.com.br/certificate/e4a0bed9-31fc-4e47-9363-1f867cb46f9f?lang=pt_BR" class="btn btn-sm btn-outline-primary mt-2">Ver Certificado</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-database" style="font-size: 2.5rem; color: #3498db;"></i>
+                        <h6 class="card-title mt-3">(Projeto)consumindo API</h6>
+                        <p class="card-text small text-muted">Java: consumindo API<br>Consumindo apis em java.</p>
+                        <a href="https://github.com/Luizfp0908/Alura" class="btn btn-sm btn-outline-primary mt-2">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-database" style="font-size: 2.5rem; color: #3498db;"></i>
+                        <h6 class="card-title mt-3">(Projeto)ScreenMatch</h6>
+                        <p class="card-text small text-muted">Java: ScreenMatch<br>Pagina de filmes</p>
+                        <a href="https://github.com/Luizfp0908/Alura/tree/main/ProjetosAlura/src/ScreenMatch" class="btn btn-sm btn-outline-primary mt-2">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body text-center">
+                        <i class="bi bi-database" style="font-size: 2.5rem; color: #3498db;"></i>
+                        <h6 class="card-title mt-3">(Projeto)Controle de produtos</h6>
+                        <p class="card-text small text-muted">Java:Controle de produtos<br>Mvc para Adicionar, remover ou atualizar produto de um banco de dados</p>
+                        <a href="https://github.com/Luizfp0908/TrabalhoFaculdadePoo/tree/main/MVC" class="btn btn-sm btn-outline-primary mt-2">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+</section>
+
+<section class="container py-5">
+    <div class="card p-4 shadow-sm">
+        <h2 class="mb-4">Comentários</h2>
+        <div class="mb-3">
+            <label for="nomeInput" class="form-label">Seu Nome</label>
+            <input type="text" id="nomeInput" class="form-control" placeholder="Digite seu nome">
+        </div>
+        <div class="mb-3">
+            <label for="comentarioInput" class="form-label">Comentário</label>
+            <textarea id="comentarioInput" class="form-control" rows="3" placeholder="Digite seu comentário"></textarea>
+        </div>
+        <button class="btn btn-primary" onclick="adicionarComentario()">Adicionar Comentário</button>
+        <div id="espacoComentarios" class="mt-4"></div>
+    </div>
+</section>
+
+
+  <footer>
+    <section id="Contato">
+      <h3>Entre em contato</h3>
+      <a href="https://wa.me/5542999590404" target="_blank">
+        <img src="Img/whatsAPp.png" alt="WhatsApp" width="50px" height="50px">
+      </a>
+      <a href="mailto:luizfpucci090806@gmail.com" target="_blank" rel="noopener noreferrer">
+        <img src="Img/email.png" alt="Email" width="50px" height="50px">
+      </a>
+      <a href="http://www.facebook.com/luizfrancisco.pucci/" target="_blank" rel="noopener noreferrer">
+        <img src="Img/facebook.png" alt="facebook" width="50px" height="50px">
+      </a>
+      <a href="https://discordapp.com/users/531909938847547393" target="_blank" rel="noopener noreferrer">
+        <img src="img/discord-logo.png" alt="Discord" width="50px" height="50px">
+      </a>
+      <a href="https://www.instagram.com/luizfp_0908/" target="_blank" rel="noopener noreferrer">
+        <img src="Img/instagram.png" alt="Instagram" width="50px" height="50px">
+      </a>
+      <a href="https://github.com/Luizfp0908" target="_blank" rel="noopener noreferrer">
+        <img src="img/git.png" alt="GitHub" width="50px" height="50px">
+      </a>
+
+      <h6>© 2026 Luiz Francisco</h6>
+    </section>
+  </footer>
+
+  
+
+
+  <script src="Projeto_luiz.JS"></script>
+</body>
+
+</html>

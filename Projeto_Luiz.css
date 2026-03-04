@@ -48,8 +48,7 @@ article.sites.posicao {
 }
 
 article.sobre {
-    background: rgb(254, 255, 255);
-    background: linear-gradient(0deg, rgba(0,65,126,1) 0%, rgba(33,115,148,1) 50%, rgba(0,212,255,1) 100%);
+    background: #000000;
     color: white;
     padding: 15px;
 }
@@ -160,3 +159,4 @@ footer a:hover {
 #meusCertificados .card:hover {
     transform: translateY(-5px);/
 }
+

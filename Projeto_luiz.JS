@@ -34,6 +34,8 @@ window.addEventListener("scroll", function () {
 
 
 
+
+
   
 function adicionarComentario() {
     const comentarioTexto = document.getElementById("comentarioInput").value.trim();
@@ -79,3 +81,16 @@ function adicionarComentario() {
     document.getElementById("comentarioInput").value = "";
     document.getElementById("nomeInput").value = "";
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    const toastTrigger = document.getElementById('liveToastBtn');
+    const toastLiveExample = document.getElementById('liveToast');
+
+    if (toastTrigger) {
+        toastTrigger.addEventListener('click', () => {
+            // Usa o objeto global 'bootstrap' que vem do link acima
+            const toast = new bootstrap.Toast(toastLiveExample);
+            toast.show();
+        });
+    }
+});
