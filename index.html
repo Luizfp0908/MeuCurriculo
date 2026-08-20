@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luiz Francisco Pucci Neto — TI de Negócios e SAP</title>
+
+<meta name="description" content="TI de Negócios na Klabin, no processo Plan to Produce (SAP). Estudante de Engenharia de Software na Unicesumar, 5º período.">
+<meta name="author" content="Luiz Francisco Pucci Neto">
+<meta name="theme-color" content="#06182B">
+
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Luiz Francisco Pucci Neto — TI de Negócios e SAP">
+<meta property="og:description" content="TI de Negócios na Klabin, processo Plan to Produce. Estudante de Engenharia de Software.">
+<meta property="og:url" content="https://luizfp0908.github.io/MeuCurriculo/">
+<meta property="og:image" content="https://luizfp0908.github.io/MeuCurriculo/img/LogoLuizBranco.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://luizfp0908.github.io/MeuCurriculo/">
+
+<link rel="icon" href="img/LogoLuiz.ico.ico" sizes="any">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Projeto_Luiz.css">
+
+<script>document.documentElement.className = 'js';</script>
+</head>
+
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<div class="progresso" aria-hidden="true"><span></span></div>
+
+<header class="topo" id="topo">
+  <div class="wrap topo__inner">
+    <a class="marca" href="#topo">
+      <span class="marca__ponto" aria-hidden="true"></span>
+      luiz<span class="marca__fraco">.pucci</span>
+    </a>
+
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+      <span class="menu-btn__texto">menu</span>
+      <span class="menu-btn__barras" aria-hidden="true"><i></i><i></i></span>
+    </button>
+
+    <nav class="menu" id="menu" aria-label="Navegação principal">
+      <a href="#processo">processo</a>
+      <a href="#trajetoria">trajetória</a>
+      <a href="#formacao">formação</a>
+      <a href="#projetos">projetos</a>
+      <a href="#contato">contato</a>
+      <a class="menu__cv" href="Projeto_LuizCurriculo.html">currículo&nbsp;↗</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero">
+    <span class="cantos" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+
+    <div class="wrap hero__grid">
+      <div class="hero__texto">
+        <p class="rotulo">TI de Negócios · Klabin</p>
+        <h1 class="hero__nome">Luiz<br>Francisco<br><span class="hero__sobrenome">Pucci&nbsp;Neto</span></h1>
+        <p class="hero__linha">
+          Trabalho no processo que liga a previsão de demanda ao apontamento do que saiu
+          da fábrica. Metade conversa com quem produz, metade conversa com o sistema.
+        </p>
+        <div class="hero__acoes">
+          <a class="btn btn--forte" href="#processo">Ver o processo</a>
+          <a class="btn" href="Projeto_LuizCurriculo.html">Currículo</a>
+        </div>
+      </div>
+
+      <!-- Bloco de legenda, como o carimbo de uma prancha técnica -->
+      <dl class="ficha">
+        <p class="ficha__topo">Ficha técnica</p>
+        <div><dt>Cargo</dt><dd>Estagiário de TI de Negócios</dd></div>
+        <div><dt>Processo</dt><dd>Plan to Produce</dd></div>
+        <div><dt>Sistema</dt><dd>SAP</dd></div>
+        <div><dt>Empresa</dt><dd>Klabin</dd></div>
+        <div><dt>Formação</dt><dd>Eng. de Software · Unicesumar, 5º período</dd></div>
+        <div><dt>Base</dt><dd>Telêmaco Borba e Ponta Grossa, PR</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ==================== PROCESSO ==================== -->
+  <section class="secao" id="processo">
+    <div class="wrap">
+      <p class="rotulo" data-reveal>Plan to Produce</p>
+      <h2 class="titulo" data-reveal>O processo em que eu trabalho</h2>
+      <p class="subtitulo subtitulo--largo" data-reveal>
+        Seis etapas entre a promessa comercial e o produto no estoque. Toque em uma delas
+        para ver o que acontece ali — e o que quebra quando alguém erra.
+      </p>
+
+      <div class="esquema" data-reveal>
+        <div class="esquema__trilho" role="tablist" aria-label="Etapas do processo Plan to Produce">
+          <button class="no" role="tab" id="tab-1" aria-controls="pn-1" aria-selected="true" tabindex="0"
+                  data-titulo="Previsão de demanda"
+                  data-texto="Quanto o mercado vai pedir, e quando. A previsão comercial é a entrada de tudo: sem ela, a fábrica produz por palpite. Uma previsão otimista demais vira estoque parado; conservadora demais vira pedido que não se atende.">
+            <span class="no__marca"></span><span class="no__num">01</span><span class="no__nome">Previsão de demanda</span>
+          </button>
+          <button class="no" role="tab" id="tab-2" aria-controls="pn-2" aria-selected="false" tabindex="-1"
+                  data-titulo="Planejamento de materiais"
+                  data-texto="O sistema abre a lista de materiais do produto, compara com o que já existe em estoque e devolve duas respostas: o que precisa ser comprado e o que precisa ser produzido, com data. É aqui que um cadastro errado de material se transforma em falta de insumo três semanas depois.">
+            <span class="no__marca"></span><span class="no__num">02</span><span class="no__nome">Planejamento de materiais</span>
+          </button>
+          <button class="no" role="tab" id="tab-3" aria-controls="pn-3" aria-selected="false" tabindex="-1"
+                  data-titulo="Ordem de produção"
+                  data-texto="O plano vira uma ordem concreta: quantidade, roteiro de fabricação e centro de trabalho. É o documento que autoriza a fábrica a começar e o ponto em que o custo passa a ser acompanhado."
+                  >
+            <span class="no__marca"></span><span class="no__num">03</span><span class="no__nome">Ordem de produção</span>
+          </button>
+          <button class="no" role="tab" id="tab-4" aria-controls="pn-4" aria-selected="false" tabindex="-1"
+                  data-titulo="Execução na fábrica"
+                  data-texto="A ordem sai da tela e vira máquina rodando. É onde o plano encontra a realidade: quebra de equipamento, troca de prioridade, matéria-prima fora de especificação. Nenhum planejamento sobrevive intacto a esta etapa, e tudo bem — o processo existe para absorver isso.">
+            <span class="no__marca"></span><span class="no__num">04</span><span class="no__nome">Execução na fábrica</span>
+          </button>
+          <button class="no" role="tab" id="tab-5" aria-controls="pn-5" aria-selected="false" tabindex="-1"
+                  data-titulo="Apontamento"
+                  data-texto="O que foi produzido volta para o sistema: quantidade boa, refugo, tempo gasto. É a etapa mais subestimada da cadeia. Apontamento feito de qualquer jeito contamina estoque, custo e a próxima previsão — e o erro só aparece semanas depois, longe de quem o causou.">
+            <span class="no__marca"></span><span class="no__num">05</span><span class="no__nome">Apontamento</span>
+          </button>
+          <button class="no" role="tab" id="tab-6" aria-controls="pn-6" aria-selected="false" tabindex="-1"
+                  data-titulo="Estoque e custo"
+                  data-texto="O produto entra no estoque e o consumo vira custo. É onde o ciclo fecha e onde o financeiro finalmente enxerga o que a fábrica fez. Se as etapas anteriores foram bem executadas, este número conta a verdade.">
+            <span class="no__marca"></span><span class="no__num">06</span><span class="no__nome">Estoque e custo</span>
+          </button>
+        </div>
+
+        <div class="esquema__painel" id="pn-1" role="tabpanel" aria-labelledby="tab-1" tabindex="0">
+          <p class="esquema__num" aria-hidden="true">01</p>
+          <h3 class="esquema__titulo">Previsão de demanda</h3>
+          <p class="esquema__texto">Quanto o mercado vai pedir, e quando. A previsão comercial é a entrada de tudo: sem ela, a fábrica produz por palpite. Uma previsão otimista demais vira estoque parado; conservadora demais vira pedido que não se atende.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TRAJETÓRIA ==================== -->
+  <section class="secao" id="trajetoria">
+    <div class="wrap">
+      <p class="rotulo" data-reveal>Trajetória</p>
+      <h2 class="titulo" data-reveal>Do chão de fábrica ao sistema que planeja a fábrica</h2>
+
+      <div class="linha-tempo">
+        <div class="marco" data-reveal>
+          <span class="marco__data">2020 — 2023</span>
+          <div class="marco__corpo">
+            <h3 class="marco__nome">Hradesivos</h3>
+            <p class="marco__papel">Técnico de operações e manutenção</p>
+            <p class="marco__texto">
+              Três anos operando plotters de recorte e cuidando da manutenção das estações
+              de trabalho. Aprendi produção do jeito que não se aprende em sala: olhando a
+              máquina rodar e pagando o preço quando ela para.
+            </p>
+          </div>
+        </div>
+
+        <div class="marco" data-reveal>
+          <span class="marco__data">2024 — 2027</span>
+          <div class="marco__corpo">
+            <h3 class="marco__nome">Unicesumar</h3>
+            <p class="marco__papel">Engenharia de Software · 5º período</p>
+            <p class="marco__texto">
+              Comecei o curso querendo entender o que existe atrás da tela. Saber como um
+              sistema é construído por dentro muda a qualidade da pergunta que eu faço
+              quando um número aparece errado.
+            </p>
+          </div>
+        </div>
+
+        <div class="marco marco--atual" data-reveal>
+          <span class="marco__data">2026 — atual<span class="marco__selo">agora</span></span>
+          <div class="marco__corpo">
+            <h3 class="marco__nome">Klabin</h3>
+            <p class="marco__papel">TI de Negócios · Plan to Produce</p>
+            <p class="marco__texto">
+              Hoje estou do outro lado do balcão. Meu trabalho é entender o que a produção
+              precisa e traduzir isso para o sistema. Conheço a linguagem das duas pontas,
+              e é isso que faz um requisito sair certo na primeira vez.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub" data-reveal>Competências</h3>
+      <dl class="stack">
+        <div class="stack__item" data-reveal><dt>Processo</dt><dd>Plan to Produce · planejamento de produção</dd></div>
+        <div class="stack__item" data-reveal><dt>Sistema</dt><dd>SAP · gestão de aplicações</dd></div>
+        <div class="stack__item" data-reveal><dt>Análise</dt><dd>Levantamento de requisitos · Excel</dd></div>
+        <div class="stack__item" data-reveal><dt>Dados</dt><dd>SQL Server, MySQL, SQLite</dd></div>
+        <div class="stack__item" data-reveal><dt>Programação</dt><dd>Java SE, Spring Boot, MVC</dd></div>
+        <div class="stack__item" data-reveal><dt>Idioma</dt><dd>Inglês — Fisk concluído</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ==================== FORMAÇÃO (cópia clara) ==================== -->
+  <section class="secao papel" id="formacao">
+    <div class="wrap">
+      <p class="rotulo" data-reveal>Formação</p>
+      <h2 class="titulo" data-reveal>Onde eu estudei cada coisa</h2>
+      <p class="subtitulo" data-reveal>Cada linha abre o certificado original.</p>
+
+      <ul class="registro">
+        <li class="registro__linha" data-reveal>
+          <span class="registro__ano">2024 — 2027</span>
+          <span class="registro__nome">Engenharia de Software — Bacharelado</span>
+          <span class="registro__org">Unicesumar, Ponta Grossa · cursando o 5º período</span>
+          <span class="registro__acao"><em>em andamento</em></span>
+        </li>
+        <li class="registro__linha registro__linha--destaque" data-reveal>
+          <span class="registro__ano">formação</span>
+          <span class="registro__nome">Gestão de aplicações SAP</span>
+          <span class="registro__org">Alura · formação completa</span>
+          <a class="registro__acao" href="https://cursos.alura.com.br/user/luizfpucci090806/degree-gestao-aplicacoes-sap-386995/certificate" target="_blank" rel="noopener">abrir&nbsp;↗</a>
+        </li>
+        <li class="registro__linha" data-reveal>
+          <span class="registro__ano">40h</span>
+          <span class="registro__nome">Excel profissional</span>
+          <span class="registro__org">Curso em Vídeo · análise de dados e métricas</span>
+          <a class="registro__acao" href="https://www.cursoemvideo.com/certificates/certificado/?course_id=25933&amp;cert-nonce=3b4bf992b5" target="_blank" rel="noopener">abrir&nbsp;↗</a>
+        </li>
+        <li class="registro__linha" data-reveal>
+          <span class="registro__ano">—</span>
+          <span class="registro__nome">Persistência de dados com SQLite</span>
+          <span class="registro__org">Alura</span>
+          <a class="registro__acao" href="https://cursos.alura.com.br/certificate/e4a0bed9-31fc-4e47-9363-1f867cb46f9f?lang=pt_BR" target="_blank" rel="noopener">abrir&nbsp;↗</a>
+        </li>
+        <li class="registro__linha" data-reveal>
+          <span class="registro__ano">—</span>
+          <span class="registro__nome">Consumo de APIs REST com Java</span>
+          <span class="registro__org">Alura</span>
+          <a class="registro__acao" href="https://cursos.alura.com.br/certificate/33af73c6-fe49-4dc7-8810-58a173e6bf47?lang=pt_BR" target="_blank" rel="noopener">abrir&nbsp;↗</a>
+        </li>
+        <li class="registro__linha" data-reveal>
+          <span class="registro__ano">40h</span>
+          <span class="registro__nome">Java — Programação Orientada a Objetos</span>
+          <span class="registro__org">Curso em Vídeo</span>
+          <a class="registro__acao" href="img/Certificado/Luiz-Francisco-Pucci-Java-POO-40-Horas-Certificado-Curso-em-Video.pdf" target="_blank" rel="noopener">abrir&nbsp;↗</a>
+        </li>
+        <li class="registro__linha" data-reveal>
+          <span class="registro__ano">40h</span>
+          <span class="registro__nome">Java Básico</span>
+          <span class="registro__org">Curso em Vídeo</span>
+          <a class="registro__acao" href="img/Certificado/Luiz-Francisco-Pucci-Java-Basico-40-Horas-Certificado-Curso-em-Video.pdf" target="_blank" rel="noopener">abrir&nbsp;↗</a>
+        </li>
+        <li class="registro__linha" data-reveal>
+          <span class="registro__ano">40h</span>
+          <span class="registro__nome">Lógica de programação e algoritmos</span>
+          <span class="registro__org">Curso em Vídeo</span>
+          <a class="registro__acao" href="img/Certificado/Luiz-Francisco-Pucci-Algoritmo-40-Horas-Certificado-Curso-em-Video.pdf" target="_blank" rel="noopener">abrir&nbsp;↗</a>
+        </li>
+        <!-- TODO Luiz: suba o PDF do Fisk em img/Certificado/ e troque o "—" por um link. -->
+        <li class="registro__linha" data-reveal>
+          <span class="registro__ano">concluído</span>
+          <span class="registro__nome">Inglês</span>
+          <span class="registro__org">Fisk · curso completo</span>
+          <span class="registro__acao"><em>—</em></span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ==================== PROJETOS ==================== -->
+  <section class="secao" id="projetos">
+    <div class="wrap">
+      <p class="rotulo" data-reveal>Projetos</p>
+      <h2 class="titulo" data-reveal>O que eu construí com as próprias mãos</h2>
+      <p class="subtitulo subtitulo--largo" data-reveal>
+        Não são projetos de SAP. São trabalhos de faculdade e de estudo, e estão aqui de
+        propósito: quem já escreveu a camada de dados faz uma pergunta melhor quando um
+        relatório vem errado.
+      </p>
+
+      <ol class="projetos">
+        <li class="projeto" data-reveal>
+          <span class="projeto__num">01</span>
+          <div class="projeto__corpo">
+            <h3 class="projeto__nome">Controle de produtos</h3>
+            <p class="projeto__desc">
+              CRUD completo em arquitetura MVC: cadastro, edição, remoção e consulta de
+              produtos com persistência em banco relacional.
+            </p>
+            <ul class="chips"><li>Java</li><li>MVC</li><li>SQL</li></ul>
+          </div>
+          <a class="projeto__link" href="https://github.com/Luizfp0908/TrabalhoFaculdadePoo/tree/main/MVC" target="_blank" rel="noopener">Ver código<span aria-hidden="true"> ↗</span></a>
+        </li>
+
+        <li class="projeto" data-reveal>
+          <span class="projeto__num">02</span>
+          <div class="projeto__corpo">
+            <h3 class="projeto__nome">ScreenMatch</h3>
+            <p class="projeto__desc">
+              Catálogo de filmes e séries que consome a API pública da OMDb, converte o
+              JSON com GSON e organiza os resultados em objetos Java.
+            </p>
+            <ul class="chips"><li>Java</li><li>API REST</li><li>GSON</li></ul>
+          </div>
+          <a class="projeto__link" href="https://github.com/Luizfp0908/Alura/tree/main/ProjetosAlura/src/ScreenMatch" target="_blank" rel="noopener">Ver código<span aria-hidden="true"> ↗</span></a>
+        </li>
+
+        <li class="projeto" data-reveal>
+          <span class="projeto__num">03</span>
+          <div class="projeto__corpo">
+            <h3 class="projeto__nome">Consumo de APIs em Java</h3>
+            <p class="projeto__desc">
+              Estudo prático de requisições HTTP com HttpClient: tratamento de resposta,
+              erros de rede e conversão de dados externos.
+            </p>
+            <ul class="chips"><li>Java</li><li>HttpClient</li><li>JSON</li></ul>
+          </div>
+          <a class="projeto__link" href="https://github.com/Luizfp0908/Alura/tree/main/ProjetosAlura/src/APIS" target="_blank" rel="noopener">Ver código<span aria-hidden="true"> ↗</span></a>
+        </li>
+
+        <!-- TODO Luiz: troque o link abaixo pelo repositório específico deste projeto. -->
+        <li class="projeto" data-reveal>
+          <span class="projeto__num">04</span>
+          <div class="projeto__corpo">
+            <h3 class="projeto__nome">Algoritmo de compatibilidade</h3>
+            <p class="projeto__desc">
+              Algoritmo em Java que compara perfis e calcula um índice de compatibilidade
+              a partir de critérios com pesos diferentes.
+            </p>
+            <ul class="chips"><li>Java</li><li>Estruturas de dados</li></ul>
+          </div>
+          <a class="projeto__link" href="https://github.com/Luizfp0908" target="_blank" rel="noopener">Ver código<span aria-hidden="true"> ↗</span></a>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ==================== CONTATO ==================== -->
+  <section class="secao contato" id="contato">
+    <div class="wrap">
+      <p class="rotulo" data-reveal>Contato</p>
+      <h2 class="titulo titulo--grande" data-reveal>
+        Processo de um lado,<br>sistema do outro.
+      </h2>
+      <p class="contato__linha" data-reveal>
+        Gosto de conversar sobre SAP, planejamento de produção e o que acontece quando as
+        duas pontas não se entendem. Se o assunto for esse, me chama.
+      </p>
+
+      <ul class="canais" data-reveal>
+        <li><a href="mailto:luizfpucci090806@gmail.com">
+          <span class="canais__rot">e-mail</span>
+          <span class="canais__val">luizfpucci090806@gmail.com</span></a></li>
+        <li><a href="https://www.linkedin.com/in/luiz-francisco-pucci-905b01300" target="_blank" rel="noopener">
+          <span class="canais__rot">linkedin</span>
+          <span class="canais__val">luiz-francisco-pucci ↗</span></a></li>
+        <li><a href="https://wa.me/5542999590440?text=Oi%20Luiz%2C%20vi%20seu%20site" target="_blank" rel="noopener">
+          <span class="canais__rot">whatsapp</span>
+          <span class="canais__val">(42) 99959-0440</span></a></li>
+        <li><a href="https://github.com/Luizfp0908" target="_blank" rel="noopener">
+          <span class="canais__rot">github</span>
+          <span class="canais__val">Luizfp0908 ↗</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<!-- Rodapé no formato do carimbo de uma prancha -->
+<footer class="rodape">
+  <div class="wrap">
+    <div class="carimbo">
+      <div class="carimbo__campo"><span>Nome</span><b>Luiz Francisco Pucci Neto</b></div>
+      <div class="carimbo__campo"><span>Base</span><b>Telêmaco Borba / Ponta Grossa, PR</b></div>
+      <div class="carimbo__campo"><span>Atualizado</span><b data-atualizado>2026</b></div>
+      <div class="carimbo__campo"><span>Construção</span><b>HTML, CSS e JavaScript à mão</b></div>
+    </div>
+  </div>
+</footer>
+
+<script src="Projeto_luiz.JS"></script>
+</body>
+</html>
